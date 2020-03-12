@@ -165,6 +165,7 @@
     <Compile Include="Assets\Downloaded assets\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
     <Compile Include="Assets\Downloaded assets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\Downloaded assets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+    <Compile Include="Assets\Scripts\ToiletTrigger.cs" />
     <None Include="Assets\Downloaded assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Downloaded assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\Downloaded assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
