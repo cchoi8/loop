@@ -34,7 +34,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: New Trigger
+    m_ConditionEvent: open
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3803458246586694146}
@@ -97,8 +97,8 @@ AnimatorController:
   m_Name: toiletElevator
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: New Trigger
-    m_Type: 9
+  - m_Name: open
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
