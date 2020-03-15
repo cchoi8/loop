@@ -17,7 +17,7 @@ public class toiletElevator : MonoBehaviour
 
     
     private void OnTriggerEnter(Collider other)
-    {Debug.Log("help me");
+    {   Debug.Log("help me");
         if (other.tag == "Player")
 
             
