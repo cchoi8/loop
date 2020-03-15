@@ -15,10 +15,20 @@ public class door2SM : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("open sesami");
         if (other.tag == "Player")
 
             _animator.SetBool("open", true);
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Debug.Log("close sesami");
+        if (other.tag == "Player")
+
+            _animator.SetBool("open", false);
+    }
+
 
     // Update is called once per frame
     void Update()
