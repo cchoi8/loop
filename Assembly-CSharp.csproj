@@ -168,6 +168,7 @@
     <Compile Include="Assets\Downloaded assets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\Downloaded assets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
     <Compile Include="Assets\Scripts\airport.cs" />
+    <Compile Include="Assets\Scripts\door2SM.cs" />
     <Compile Include="Assets\Scripts\DoorScript.cs" />
     <Compile Include="Assets\Scripts\toiletElevator.cs" />
     <None Include="Assets\Downloaded assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />

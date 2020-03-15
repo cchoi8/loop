@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{6F65422B-2DB3-657C-4B97-459E27F83535}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/airport.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/door2SM.cs">
     <Files>
       <File FileName="Assets/Scripts/toiletElevator.cs" Line="18" Column="5" />
       <File FileName="Assets/Scripts/airport.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/DoorScript.cs" Line="16" Column="48" />
+      <File FileName="Assets/Scripts/door2SM.cs" Line="29" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
