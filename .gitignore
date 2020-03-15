@@ -1,3 +1,8 @@
+.vscode/
+*.DS_STORE
+
+# UNITY BELOW THIS POINT
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
@@ -58,75 +63,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
-*.DS_STORE
-cute world/Assets/Scenes.meta
-cute world/Assets/Scenes/SampleScene.unity
-cute world/Library/assetDatabase3
-cute world/Library/CurrentLayout-default.dwlt
-cute world/Library/CurrentMaximizeLayout.dwlt
-cute world/Library/expandedItems
-cute world/Library/LastSceneManagerSetup.txt
-cute world/Library/ProjectSettings.asset
-cute world/Library/SceneVisibilityState.asset
-cute world/Library/ShaderCache/0/00d2ced5bfeaaff128460e9cbac4206d.bin
-cute world/Library/ShaderCache/0/016a68328dace9b9d033161cb1455fe7.bin
-cute world/Library/ShaderCache/0/03836f466515e2596633ad4d67b04489.bin
-cute world/Library/ShaderCache/0/0dc024fff66ecf49880018a2e8243ed0.bin
-cute world/Library/ShaderCache/1/1e1f83e2ccc61817121fa4890f5c9bc2.bin
-cute world/Library/ShaderCache/1/1e5ab9661f647d5d69bc10d950cf53f3.bin
-cute world/Library/ShaderCache/1/1e5c3187e7ec11dec6c6b74bde513c5b.bin
-cute world/Library/ShaderCache/2/2042af6fdd836a9731666f53c5ca28e6.bin
-cute world/Library/ShaderCache/2/2115d6673ef6b25b75c121688a0c5955.bin
-cute world/Library/ShaderCache/2/239ae3e61884d8d66d99e240e25b382c.bin
-cute world/Library/ShaderCache/2/287f9ae2a220d3454dacc1cc8596b445.bin
-cute world/Library/ShaderCache/3/340f2d16b45a0d55990ef0e9bed14a58.bin
-cute world/Library/ShaderCache/5/501bedac81e1c75f15d49a4e033d1778.bin
-cute world/Library/ShaderCache/5/5342af0ace337757de0721e601dd3532.bin
-cute world/Library/ShaderCache/5/567e4e4c619a3ac6576e816255048e7a.bin
-cute world/Library/ShaderCache/5/570907570a55198a5ef8260d1d69ae77.bin
-cute world/Library/ShaderCache/5/5f3fa14de3c823bb3a39e665058c77e9.bin
-cute world/Library/ShaderCache/6/6389dbe82189328e9ae4f4e970dd3ddf.bin
-cute world/Library/ShaderCache/6/6bd99fef1e0b14731bec9412c7eecde5.bin
-cute world/Library/ShaderCache/8/83cf05dbaf39fd0e2364f1dc76a84e5a.bin
-cute world/Library/ShaderCache/a/a2ccc0d768b956b0b47a5ac0f3fee751.bin
-cute world/Library/ShaderCache/a/a6634a8774be156eda6735a79c4a2616.bin
-cute world/Library/ShaderCache/a/a812d90c8c1804cb92bcb30edfac7da1.bin
-cute world/Library/ShaderCache/a/af3fc229ce34a6cea55fe0c1410179c1.bin
-cute world/Library/ShaderCache/b/b660f1df227eb2bcc00dcbc2fb6e97fe.bin
-cute world/Library/ShaderCache/b/b8a7cb9c52ba9a89d0237bc2710cd428.bin
-cute world/Library/ShaderCache/b/b9e73cf1f4b112ea8372358918af3f47.bin
-cute world/Library/ShaderCache/c/c5b1939af0d916bcc1cf644db5755b30.bin
-cute world/Library/ShaderCache/c/c766de28fc21b89c9b3791f9d85942ff.bin
-cute world/Library/ShaderCache/c/c8955c7995210a51a6200de95f1c81e4.bin
-cute world/Library/ShaderCache/d/d23c5ce1b3f3c86c940fbd8b43232eb5.bin
-cute world/Library/ShaderCache/d/d9d988d49403a9f1153de2865f43e93b.bin
-cute world/Library/ShaderCache/e/e0d405c270452466fcce2db19512688d.bin
-cute world/Library/ShaderCache/EditorEncounteredVariants
-cute world/Library/ShaderCache/f/f41789a59c4de07db062d27c625bf16d.bin
-cute world/Library/ShaderCache/f/f6ab447072757e82bdb3b53522d0392d.bin
-cute world/Library/ShaderCache/f/fb4c8ba79e21f8cfc9bbd1903f74e0cf.bin
-cute world/Library/shadercompiler-UnityShaderCompiler0.log
-cute world/Library/shadercompiler-UnityShaderCompiler1.log
-cute world/Library/shadercompiler-UnityShaderCompiler2.log
-cute world/Library/shadercompiler-UnityShaderCompiler3.log
-cute world/Library/StateCache/Hierarchy/d290b1-mainStage.json
-cute world/Library/StateCache/SceneView/cdf01a-mainStage.json
-cute world/ProjectSettings/ProjectVersion.txt
-cute world/Temp/UnityLockfile
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/button.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/button9slice.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/dialog.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/header.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/panel_background.PNG.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_disabled.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_off.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_on.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_on_off.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_over.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/separator.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_bar.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_slider.png.meta
-TakeFlightVR/Assets/Oculus/SampleFramework/Core/DebugUI/Textures/translucent_01.png.meta
-TakeFlightVR/Assets/Oculus/VR/Textures/handle.png.meta
-TakeFlightVR/Assets/Oculus/VR/Textures/windowgui.png.meta
