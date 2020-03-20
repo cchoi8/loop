@@ -6,12 +6,21 @@ public class door2SM : MonoBehaviour
 {
 
     private Animator _animator;
+    private AudioClip audio;
+
 
     // Start is called before the first frame update
     void Start()
     {
         _animator = GetComponent<Animator>();
     }
+
+    //    void OnEnable()
+    //   {
+    //    SceneManager.LoadScene("1theatre");
+     //    audio.SetBool("open", true);
+//
+   // }
 
     private void OnTriggerEnter(Collider other)
     {
