@@ -6,7 +6,7 @@ public class door2SM : MonoBehaviour
 {
 
     private Animator _animator;
-    private AudioClip audio;
+  //  private AudioClip audio;
 
 
     // Start is called before the first frame update
