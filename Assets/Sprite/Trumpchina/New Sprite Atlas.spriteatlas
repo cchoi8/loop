@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 64
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: fb5935aee11854f399181b455f7e17a9, type: 3}
+    - {fileID: 2800000, guid: 21a352d44032447d0ad5a4e7104df8ad, type: 3}
+    - {fileID: 2800000, guid: 52ba1383267934e6290cb47129c8f7b8, type: 3}
+    totalSpriteSurfaceArea: 204800
+    bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: 00000000000000000000000000000000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ea85fa20d67ca4f12a64aa00e7b6e873, type: 3}
+  - {fileID: 21300000, guid: c4516430b8edf4ea2853a75ee84d13b0, type: 3}
+  - {fileID: 21300000, guid: da23cd4047263408ab6741ac0d819bc5, type: 3}
+  - {fileID: 21300000, guid: e32b7c9041be14852907464a31d883fb, type: 3}
+  - {fileID: 21300000, guid: 72111f01d9e964e26a3f6271b7862c12, type: 3}
+  - {fileID: 21300000, guid: ae48655167fb14349b1d5785b417805a, type: 3}
+  - {fileID: 21300000, guid: 81fd2961d55e84a2996ff132f264a715, type: 3}
+  - {fileID: 21300000, guid: defaf4329319044d19d8469ce2d7aefb, type: 3}
+  - {fileID: 21300000, guid: 7f007652c319446ae8685d8cbf3c4c9b, type: 3}
+  - {fileID: 21300000, guid: 7b273c7224bc540f396ccd50bb8771be, type: 3}
+  - {fileID: 21300000, guid: 9daddbc25180f416ebcd326dc77fd365, type: 3}
+  - {fileID: 21300000, guid: 16c59bd2aebca476fbf9702c822e0315, type: 3}
+  - {fileID: 21300000, guid: 4757ae330180c4512ba753c4ca6666e5, type: 3}
+  - {fileID: 21300000, guid: 3f174f430422a445cb301043f0c2b5fb, type: 3}
+  - {fileID: 21300000, guid: 52ba1383267934e6290cb47129c8f7b8, type: 3}
+  - {fileID: 21300000, guid: 472c310497ce8442294410efc7cdd558, type: 3}
+  - {fileID: 21300000, guid: f2387a14beee54225a8c20260b37fcec, type: 3}
+  - {fileID: 21300000, guid: 393d0b14c23f44b9da0b13be6d40f616, type: 3}
+  - {fileID: 21300000, guid: ede0c164bfc0441848de88eaa62fda53, type: 3}
+  - {fileID: 21300000, guid: 21a352d44032447d0ad5a4e7104df8ad, type: 3}
+  - {fileID: 21300000, guid: bff39b55979f044869ad9c8a2994156d, type: 3}
+  - {fileID: 21300000, guid: d48607a56601b4614b9656955f54ee27, type: 3}
+  - {fileID: 21300000, guid: e3a64b6630bfc44ff8680d402bb7dc76, type: 3}
+  - {fileID: 21300000, guid: 1357cb7690e8c4cde8a9bc4813ccebf2, type: 3}
+  - {fileID: 21300000, guid: a75b6e96c13fe4610a6f13c0abb014d0, type: 3}
+  - {fileID: 21300000, guid: 0e48d4b6216684730b140c8e150d8af7, type: 3}
+  - {fileID: 21300000, guid: c2a6260764d0340b88cb46316f9b1e65, type: 3}
+  - {fileID: 21300000, guid: dce8d337578a349e6a72e7b3bdf06fd6, type: 3}
+  - {fileID: 21300000, guid: bb66a43746c0545f380c8fe080d4fa9f, type: 3}
+  - {fileID: 21300000, guid: 42fb7097b27d04e60861cbce0463a70a, type: 3}
+  - {fileID: 21300000, guid: 610e5ec87a2634073b521e2f421cffc6, type: 3}
+  - {fileID: 21300000, guid: a19ded29951be4e6ca10737d5b14e9e0, type: 3}
+  - {fileID: 21300000, guid: 48e8da6916e5e4d569796ad1ab358cb6, type: 3}
+  - {fileID: 21300000, guid: 86c6652a0aadf46f98a8c3234887d321, type: 3}
+  - {fileID: 21300000, guid: 73af194a6d63f405b8de564f1ea67040, type: 3}
+  - {fileID: 21300000, guid: 9389837aa12b84176afeb9ffe332a34e, type: 3}
+  - {fileID: 21300000, guid: db16ae9a1f26b4227b1a6ea008ddeb62, type: 3}
+  - {fileID: 21300000, guid: 8ada98ab729a040a39b17e724fbf8ac1, type: 3}
+  - {fileID: 21300000, guid: db59e17cf07fe4861a454104fbf58b26, type: 3}
+  - {fileID: 21300000, guid: 93f507acc35e94132924a57a9e44ae4e, type: 3}
+  - {fileID: 21300000, guid: ca35d15df185b4b13b82e23983f5deb9, type: 3}
+  - {fileID: 21300000, guid: 2afda65d776424af08eb097248fe9027, type: 3}
+  - {fileID: 21300000, guid: 07a60a5d60b6d4758b565e56424911b8, type: 3}
+  - {fileID: 21300000, guid: 173ee9cddb1144b13aa6f0de3ac5161e, type: 3}
+  - {fileID: 21300000, guid: 2dc1580e1fb8b4309b446ea83342495a, type: 3}
+  - {fileID: 21300000, guid: 6304be2e3c260487a929eb3e81733a54, type: 3}
+  - {fileID: 21300000, guid: 212f853eb07574e9ca0dadbd6fa64d50, type: 3}
+  - {fileID: 21300000, guid: ebe4a8fed6232438983e748377852c1e, type: 3}
+  - {fileID: 21300000, guid: a236715fb18a74d6d86730dcfabdaec8, type: 3}
+  - {fileID: 21300000, guid: fe9795cf7a1954bd5bf0cfcbed661a87, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - trumpchina0009
+  - trumpchina0020
+  - trumpchina0042
+  - trumpchina0021
+  - trumpchina0004
+  - trumpchina0022
+  - trumpchina0043
+  - trumpchina0045
+  - trumpchina0014
+  - trumpchina0037
+  - trumpchina0041
+  - trumpchina0006
+  - trumpchina0047
+  - trumpchina0011
+  - trumpchina0002
+  - trumpchina0031
+  - trumpchina0044
+  - trumpchina0033
+  - trumpchina0016
+  - trumpchina0001
+  - trumpchina0030
+  - trumpchina0017
+  - trumpchina0023
+  - trumpchina0026
+  - trumpchina0039
+  - trumpchina0012
+  - trumpchina0038
+  - trumpchina0032
+  - trumpchina0049
+  - trumpchina0008
+  - trumpchina0005
+  - trumpchina0034
+  - trumpchina0000
+  - trumpchina0018
+  - trumpchina0035
+  - trumpchina0024
+  - trumpchina0010
+  - trumpchina0025
+  - trumpchina0029
+  - trumpchina0013
+  - trumpchina0036
+  - trumpchina0040
+  - trumpchina0007
+  - trumpchina0003
+  - trumpchina0019
+  - trumpchina0015
+  - trumpchina0048
+  - trumpchina0027
+  - trumpchina0046
+  - trumpchina0028
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0
