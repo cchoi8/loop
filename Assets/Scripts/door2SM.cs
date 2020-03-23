@@ -18,9 +18,9 @@ public class door2SM : MonoBehaviour
     //    void OnEnable()
     //   {
     //    SceneManager.LoadScene("1theatre");
-     //    audio.SetBool("open", true);
-//
-   // }
+    //    audio.SetBool("open", true);
+    //
+    // }
 
     private void OnTriggerEnter(Collider other)
     {
