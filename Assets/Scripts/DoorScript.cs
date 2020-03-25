@@ -6,6 +6,7 @@ public class DoorScript : MonoBehaviour
 {
 
     private Animator _animator;
+    private AudioSource audioS;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,7 @@ public class DoorScript : MonoBehaviour
         if (other.tag == "Player")
 
         _animator.SetBool("open", true);
+  //      Aks
     }
 
     private void OnTriggerExit(Collider other)
