@@ -6,12 +6,15 @@ public class DoorScript : MonoBehaviour
 {
 
     private Animator _animator;
-    private AudioSource audioS;
+    public AudioSource _audioS;
+    float timer;
 
     // Start is called before the first frame update
     void Start()
     {
-        _animator = GetComponent<Animator>();    
+        _animator = GetComponent<Animator>();
+        _audioS = GetComponent<AudioSource>();
+        Invoke(" ", 3.0f);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -19,7 +22,11 @@ public class DoorScript : MonoBehaviour
         if (other.tag == "Player")
 
         _animator.SetBool("open", true);
-  //      Aks
+
+       
+       _audioS.Play();
+
+
     }
 
     private void OnTriggerExit(Collider other)

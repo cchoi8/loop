@@ -6,6 +6,8 @@ public class door2SM : MonoBehaviour
 {
 
     private Animator _animator;
+    public AudioSource _audioS;
+    float timer;
   //  private AudioClip audio;
 
 
@@ -13,6 +15,8 @@ public class door2SM : MonoBehaviour
     void Start()
     {
         _animator = GetComponent<Animator>();
+        _audioS = GetComponent<AudioSource>();
+        Invoke(" ", 3.0f);
     }
 
     //    void OnEnable()
@@ -28,6 +32,7 @@ public class door2SM : MonoBehaviour
         if (other.tag == "Player")
 
             _animator.SetBool("open", true);
+            _audioS.Play();
     }
 
     private void OnTriggerExit(Collider other)
