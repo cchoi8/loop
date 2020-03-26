@@ -7,7 +7,7 @@ public class door2SM : MonoBehaviour
 
     private Animator _animator;
     public AudioSource _audioS;
-    float timer;
+    //float timer;
   //  private AudioClip audio;
 
 
@@ -16,7 +16,7 @@ public class door2SM : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _audioS = GetComponent<AudioSource>();
-        Invoke(" ", 3.0f);
+        //Invoke(" ", 3.0f);
     }
 
     //    void OnEnable()

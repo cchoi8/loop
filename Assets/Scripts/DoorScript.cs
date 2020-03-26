@@ -7,6 +7,7 @@ public class DoorScript : MonoBehaviour
 
     private Animator _animator;
     public AudioSource _audioS;
+    public AudioClip _audioSS;
     float timer;
 
     // Start is called before the first frame update
@@ -14,7 +15,7 @@ public class DoorScript : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _audioS = GetComponent<AudioSource>();
-        Invoke(" ", 3.0f);
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -23,8 +24,9 @@ public class DoorScript : MonoBehaviour
 
         _animator.SetBool("open", true);
 
-       
-       _audioS.Play();
+        _audioS.PlayOneShot(_audioSS, 10f);
+        //or if you just want to play without sec delay
+        //_audioS.Play();
 
 
     }
