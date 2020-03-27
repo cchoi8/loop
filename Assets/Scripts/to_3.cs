@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class to_3 : MonoBehaviour
+public class To_3 : MonoBehaviour
 {
     //private Animator _animator;
     // public GameObject enter;
@@ -12,7 +12,7 @@ public class to_3 : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-		SceneManager.LoadScene("NICE1");
+		SceneManager.LoadScene("VVV");
 
 	}
 
