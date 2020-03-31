@@ -1,5 +1,31 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6407526180001680092
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6050e2d5de785ce4d931e4dbdbf2d755, type: 3}
+  m_Name: ChromaticAberration
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  spectralLut:
+    overrideState: 1
+    value: {fileID: 2800000, guid: 752a15ac407a94cb28eec96225c33b7f, type: 3}
+    defaultState: 1
+  intensity:
+    overrideState: 1
+    value: 0.224
+  fastMode:
+    overrideState: 1
+    value: 0
 --- !u!114 &-2336992550856379657
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -120,7 +146,7 @@ MonoBehaviour:
     value: 121
   mixerGreenOutBlueIn:
     overrideState: 1
-    value: 12
+    value: 98
   mixerBlueOutRedIn:
     overrideState: 1
     value: -3
@@ -135,7 +161,7 @@ MonoBehaviour:
     value: {x: 0.8518619, y: 1, z: 0.9324743, w: 0}
   gamma:
     overrideState: 1
-    value: {x: 0.96041507, y: 1, z: 0.8947605, w: 0}
+    value: {x: 1, y: 0.92372286, z: 0.87007415, w: 0}
   gain:
     overrideState: 1
     value: {x: 1, y: 0.73774326, z: 0.9995028, w: 0}
@@ -1355,6 +1381,7 @@ MonoBehaviour:
   - {fileID: -194346328086685386}
   - {fileID: -2336992550856379657}
   - {fileID: 5614511970026810719}
+  - {fileID: -6407526180001680092}
 --- !u!114 &5614511970026810719
 MonoBehaviour:
   m_ObjectHideFlags: 3
