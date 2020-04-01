@@ -37,12 +37,7 @@ public class DoorScript : MonoBehaviour
         if (other.tag == "Player")
 
             _animator.SetBool("open", false);
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+            _audioS.Stop();
     }
 }
+
