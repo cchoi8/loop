@@ -12,7 +12,7 @@ public class suppertp: MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-		SceneManager.LoadScene("1theatre");
+		SceneManager.LoadScene("12theatre");
 
 	}
 

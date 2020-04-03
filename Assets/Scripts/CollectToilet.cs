@@ -18,7 +18,7 @@ public class CollectToilet : MonoBehaviour
         void OnTriggerEnter(Collider other)
     {
         collectSound.Play();
-        Score.theScore += 1;
+        Score.theScore += 100;
     
         Destroy(gameObject);
     }
