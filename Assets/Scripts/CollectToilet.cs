@@ -6,8 +6,16 @@ public class CollectToilet : MonoBehaviour
 {
 
     public AudioSource collectSound;
+    public int value;
+    public float rotateSpeed;
 
-    void OnTriggerEnter(Collider other)
+
+    void Update()
+        {
+            gameObject.transform.Rotate(Vector3.up * Time.deltaTime * rotateSpeed);
+        }
+
+        void OnTriggerEnter(Collider other)
     {
         collectSound.Play();
         Score.theScore += 1;

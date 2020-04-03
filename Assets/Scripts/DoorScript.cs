@@ -24,7 +24,7 @@ public class DoorScript : MonoBehaviour
 
         _animator.SetBool("open", true);
 
-        _audioS.PlayOneShot(_audioSS, 10f);
+        _audioS.PlayOneShot(_audioSS, 50f);
         //or if you just want to play without sec delay
         //_audioS.Play();
 

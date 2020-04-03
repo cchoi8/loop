@@ -7,7 +7,7 @@ public class suppertp: MonoBehaviour
 {
     //private Animator _animator;
     // public GameObject enter;
-    // public string targetScene;
+    public string targetScene;
 
     // Start is called before the first frame update
     void OnEnable()
