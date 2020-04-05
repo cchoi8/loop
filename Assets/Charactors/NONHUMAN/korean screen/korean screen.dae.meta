@@ -3,7 +3,27 @@ guid: 24b2497ce15e044748b30c72c6f03d9f
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_001
+    second: {fileID: 2100000, guid: 0a1107c764b37485f92b059065189407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_I18
+    second: {fileID: 2100000, guid: 4ae901a62a5dd44a687d064a8db14e28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fabric-Complexion
+    second: {fileID: 2100000, guid: 8e7f80d76059146e29cf369eff074152, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\uCC45\uAC00\uB3C4_\uC911\uC559\uBC15\uBB3C\uAD001"
+    second: {fileID: 2100000, guid: 7792413c36c5741319cee28767f3d585, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
